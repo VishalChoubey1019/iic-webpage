@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+
+<style>
+
+::placeholder{
+  width: 300%;
+  color: white;
+  opacity: 1;
+  font-size: 25px;
+}
+
+</style>
+
+
+<body>
+
+
+<!--  NAVIGATION BAR -->
+
+<a class= "active" href = "#Home"> Home </a>
+
+<div class= "nav-bar" id= "myTopNav">
+
+      <img class= logo src = "logo.jpg" alt="beats logo">
+
+      <a class= "about-us" href = "#About Us"> About Us </a>
+
+      <a class= "model" href = "#model"> Model </a>  
+
+      <a class= "review" href = "#Review"> Review </a>
+
+      <a class= "add-to-cart" href = "#Add to Cart"> Add to Cart </a>
+
+      <input type="text" placeholder="🔍">
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+      </a>
+
+</div>      
+
+
+
+<!-- MAIN PAGE -->
+
+
+  <!-- UPPER PART  -->
+
+  <p class = "first-part-1">
+
+    THE BEST CHOICE
+
+  </p>
+
+  <p class= "first-part-2">
+
+    Beats Studio Wireless
+
+  </p>
+
+  <p class= "first-part-3">
+
+    Almost before we knew it, we had left the ground.<br> I watched the storm, so beautiful yet terrific.
+
+  </p>
+
+
+  <!-- VIDEO -->
+
+  <video width="520" height="440" poster="thumbnail.jpg" class= "video" controls muted=true loop class = "myVideo"> <source src="beatsvideo.mp4" type="video/mp4"></video> 
+
+
+  <!-- HEADPHONE IMAGE-->
+
+  <img width="580" height="540" src = "headphone.png" class="headfone">
+
+
+<!-- BOTTOM PAGE -->
+  <div class = "text-center">  
+
+    <p class = "btm-text" style="color: rgb(143, 89, 143)"> Use it EveryWhere </p>
+
+    <p class = "btm-text-2" style="color: rgb(216, 208, 208)"> 
+      <br><br>
+      Originally unveiled in 2007 for the iPhone,iOS has been extended to support other Apple devices such as the iPad Touch (September 2007) and the iPad (January 2010).As of March 2018, Apple's App Store contains more than 2.1 million iOS apllications,1 million if which are native for iPads. These mobile apps have collectively been downloaded more than 130 billion times.  
+    </p>
+
+  </div>  
+
+
+  <!-- MOBILE APP AND BUTTONS -->
+
+
+
+  <p class = mobile-app> Mobile App </p>
+  <p class = "mist"> Mist enveloped the ship three hours out from port </p>
+  <button class = "btn"> Download for IOS </btn>
+  <button class = "btn"> Download for Android </div>
+
+
+
+ <!-- JAVA SCRIPT -->
+
+ <script>
+
+  function myFunction() {
+    var x = document.getElementById("myTopNav");
+    if (x.className === "nav-bar") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav-bar";
+    }
+  }
+
+  </script>
+  
+
+
+
+</body>
+</html>

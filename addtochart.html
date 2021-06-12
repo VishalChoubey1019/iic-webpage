@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--  NAVIGATION BAR -->
+
+<a class= "active" href = "#Home"> Home </a>
+
+<div class= "nav-bar" id= "myTopNav">
+
+      <img class= logo src = "logo.jpg" alt="beats logo">
+
+      <a class= "about-us" href = "#About Us"> About Us </a>
+
+      <a class= "model" href = "#model"> Model </a>  
+
+      <a class= "review" href = "#Review"> Review </a>
+
+      <a class= "add-to-cart" href = "#Add to Cart"> Add to Cart </a>
+
+      <input type="text" placeholder="🔍">
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+      </a>
+
+</div>      
+
+ <!-- JAVA SCRIPT -->
+
+ <script>
+
+    function myFunction() {
+      var x = document.getElementById("myTopNav");
+      if (x.className === "nav-bar") {
+        x.className += " responsive";
+      } else {
+        x.className = "nav-bar";
+      }
+    }
+  
+    </script>
+  
+  
+  
+
+
+    <section>
+        <div class="row">
+            <div class="images">
+                <img src="images/p4.png" alt="">
+                <h2> <a href="#" class="btn"
+                        style="color: white; margin-left: -120%;text-decoration: none;border: 1px solid yellow;border-radius: 12%;padding:5px">ADD</a>
+                </h2>
+                <label for="h1" style="margin-left: -20%;">QUANTITY</label>
+                <select id="h1" name="QUANTITY" style="margin-left: -10%;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+
+            <div class="images">
+                <img src="images/p5.png" alt="">
+                <h2> <a href="#" class="btn"
+                        style="color: white; margin-left: -120%;text-decoration: none;border: 1px solid yellow;border-radius: 12%;padding:5px">ADD</a>
+                </h2>
+                <label for="h1" style="margin-left: -20%;">QUANTITY</label>
+                <select id="h1" name="QUANTITY" style="margin-left: -10%;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="images">
+                <img src="images/product2.png" alt="">
+                <h2> <a href="#" class="btn"
+                        style="color: white; margin-left: -120%;text-decoration: none;border: 1px solid yellow;border-radius: 12%;padding:5px">ADD</a>
+                </h2>
+                <label for="h1" style="margin-left: -20%;">QUANTITY</label>
+                <select id="h1" name="QUANTITY" style="margin-left: -10%;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            <div class="images">
+                <img src="images/p4.png" alt="">
+                <h2> <a href="#" class="btn"
+                        style="color: white; margin-left: -120%;text-decoration: none;border: 1px solid yellow;border-radius: 12%;padding:5px">ADD</a>
+                </h2>
+                <label for="h1" style="margin-left: -20%;">QUANTITY</label>
+                <select id="h1" name="QUANTITY" style="margin-left: -10%;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
